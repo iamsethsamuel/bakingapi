@@ -2,6 +2,7 @@ const app = require("express")(),
 cors = require("cors"),
 allowedOrigins = [
     "http://localhost:3000",
+    "http://34.132.176.233"
 ]
 let corsOptions = {
     credentials: true,
